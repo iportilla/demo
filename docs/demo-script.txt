@@ -1,0 +1,61 @@
+Example 1:
+ ==========
+ 
+ 
+ 
+ how do I solve error 410200A0 
+  ========== ========== ==========
+ 
+ Option 3 is a workaround for this error: Turn off Protector Coat when running Shading chart at 1200x1200.
+ 
+ 
+ CEC Thailand faced error Image data reception on Engine2 after updating DFE to v3.1.113. Printing shading charts with a PC triggered it, and the issue remains despite restarts and firmware reloads. Shared log data on Japan FTP for analysis.
+ 
+ 
+  ========== ========== ==========
+ how can I resolve this error:  CEC Thailand faced error Image data reception on Engine2 after updating DFE to v3.1.113. Printing shading charts with a PC triggered it, and the issue remains despite restarts and firmware reloads. Shared log data on Japan FTP for analysis.
+ 
+ Option 3 is a workaround: uncheck PC on engine 2 and the error should not appear. Development has recommended other workarounds such as using different test charts, creating a custom PDF, turning off Protector Coat, using a different resolution, or printing the chart with wider paper.
+ 
+ 
+ 
+ 
+ two:
+ ==========
+ 
+ 
+ how do I fix  Low temp errors F10C011A, F10C0119
+  ========== ========== ==========
+  
+ According to the last update from Emmett McDaniel, the only solution would be to slow the printer down to 50 m/min.
+ 
+ 
+ 
+  ========== ==========
+ how can I resolve this problem: The intermittent issue was initially reported last week, more frequent now with low temp errors. After running 9pt cards, switched to 70# and completed 7 bulletin jobs. First set had a printer 1 side verify error, reset it, and completed the rest error-free. Log didn't record it, low temp error in black. Took steps like cleaning thermistors, sensors, and checking temperature control parameters. Local team investigating heat rollers. Initial plan: sensor and roller checks, temperature control parameters, power circuit check, lamp replacement. Escalating for PE review
+ 
+ 
+ 
+ 
+ Based on the information provided, it seems the local service team is currently investigating the heat rollers and has suggested a few steps to try such as checking the temperature sensors and the heat roller output, checking temperature control related parameters, checking the power circuit of the heat roller, and replacing the halogen lamp. If these steps do not resolve the issue, it is recommended to escalate the issue for PE review.
+ 
+ 
+ 
+ 
+ 
+  ========== ========== ==========
+ need some help to fix this problem:  The intermittent issue was initially reported last week, more frequent now with low temp errors. After running 9pt cards, switched to 70# and completed 7 bulletin jobs. First set had a printer 1 side verify error, reset it, and completed the rest error-free. Log didn't record it, low temp error in black.
+ 
+ 
+ The initial action plan includes cleaning the thermistors, checking the temperature sensors (AD_IN2, 3), checking the heat roller output (DRY board Out16 to 24), and checking the temperature control related parameters (Heat roller control No.9, 11, 12, 13, 14). After cleaning the E2 temperature sensors, a trace was uploaded and the local service team is requesting an update from the trace sent in. Emmett McDaniel's final reply was that they have been monitoring the issue for a month and it is working as designed. To resolve the issue, the printer should be slowed down to 50 m/min, and the lamps should be running when the logging error occurs.
+ 
+ 
+ 
+ 
+  ========== ==========
+  need some help to fix this problem:  The intermittent issue was initially reported last week, more frequent now with low temp errors. After running 9pt cards, switched to 70# and completed 7 bulletin jobs. First set had a printer 1 side verify error, reset it, and completed the rest error-free. Log didn't record it, low temp error in black.
+  
+  
+  
+  
+  The local service team is checking the temperature control related parameters (Step 4) for heat rollers, 9, 11, 12, 13, 14 from the action plan level 2 sent earlier. A trace was requested and uploaded with the name "Low Temp Error tr-51-04050333-20210524-131621.trace" and a picture of the log file was included. The log file indicated the low temp issue for both engines, but the press didn't shut down and the issues were shown in black lettering not red. After thinking about this for a while, it has been determined that this is working as designed. The only solution would be to slow the printer down to 50 m/min.
