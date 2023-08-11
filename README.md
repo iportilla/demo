@@ -20,3 +20,8 @@
 
  - How do I fix  Low temp errors F10C011A, F10C0119 ?
  - I need some help to fix this problem:  The intermittent issue was initially reported last week, more frequent now with low temp errors. After running 9pt cards, switched to 70# and completed 7 bulletin jobs. First set had a printer 1 side verify error, reset it, and completed the rest error-free. Log didn't record it, low temp error in black
+
+
+### Details
+
+![LLM Architecture](docs/PDF-LangChain.jpg?raw=true "LLM Architecture")
